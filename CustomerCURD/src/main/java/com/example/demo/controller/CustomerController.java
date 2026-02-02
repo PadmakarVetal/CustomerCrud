@@ -19,9 +19,7 @@ import com.example.demo.model.Customer;
 import com.example.demo.service.CustomerService;
 
 @RestController
-
-@CrossOrigin(origins="*")  //newline
-@RequestMapping("/customers")  //new Line
+@CrossOrigin(origins = "*")
 public class CustomerController {
 
 	
